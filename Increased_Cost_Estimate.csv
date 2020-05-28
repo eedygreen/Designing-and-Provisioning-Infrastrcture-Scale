@@ -1,0 +1,28 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,0,9992,119904,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (3000 GB)"
+My Estimate,US East (N. Virginia),Amazon DocumentDB (with MongoDB compatibility),0,4685.36,56224.32,USD,"(2 instances)  db r5.4xlarge, I/Os (2000), Backup storage (50000 GB)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,757.5,9090,USD,"Hosted Zones (2), Basic Checks Within AWS (50), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3 Standard,0,1811.2,21734.4,USD,S3 Standard storage (80000 GB per month)
+My Estimate,US East (N. Virginia),S3 Storage Management,0,0,0,USD,
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,746.43,8957.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),AWS Web Application Firewall (WAF),0,160,1920,USD,"Number of Web Access Control Lists (Web ACLs) utilized (8 per month), Number of Rules added per Web ACL (120 per month)"
+My Estimate,US East (N. Virginia),Amazon S3 Glacier (Glacier API only),0,200,2400,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+, S3 Glacier storage (50000 GB per month)"
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,610,7320,USD,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+Increased Decision,,,,,,,
+The Web and Application Servers instances were increased using reserved instance (m5.12xlarge) for the purpose of scalability (future expansion and users requests),,,,,,,
+The Databases were also increased by; instance-type with more memory and i/o and backup storage,,,,,,,
+I increased S3 storage size to 80TB/month (for storing binary files and backup data),,,,,,,
+Additional Services,,,,,,,
+S3 Glacia for Data Archiving,,,,,,,
+Web Application Firewall,,,,,,,
