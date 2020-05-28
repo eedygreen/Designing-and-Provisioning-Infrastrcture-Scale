@@ -1,0 +1,19 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,0,2406.72,28880.64,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+My Estimate,US East (N. Virginia),Amazon DocumentDB (with MongoDB compatibility),0,1013.84,12166.08,USD,"(2 instances)  db r5.xlarge, I/Os (500), Backup storage (5000 GB)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,757.5,9090,USD,"Hosted Zones (2), Basic Checks Within AWS (50), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3 Standard,0,1150,13800,USD,S3 Standard storage (50000 GB per month)
+My Estimate,US East (N. Virginia),S3 Storage Management,0,0,0,USD,
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,746.43,8957.16,USD,Number of Application Load Balancers (1)
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+Reduction Decision,,,,,,,
+"I reduced the DynamoDb (Instance, I/o and backup storage) to achieve the reduced budget while maintaining normal operation.The reduction are; instance-type, from dbr5.2xlarge to db r5.xlarge, 5000 i/o to 500 i/o and backup storage, from 50000GB to 5000GB.",,,,,,,
