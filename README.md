@@ -35,7 +35,7 @@
 
 **Part 1**: The Infrastructure for a Social Media Application for 50,000 Users.
 
-![]https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/50000%20Social%20media%20Users.png	[50,000 Userse Infrastructure for Social Media Application](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_1.pdf)
+![](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/50000%20Social%20media%20Users.png)	[50,000 Userse Infrastructure for Social Media Application](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_1.pdf)
 
 The Infrastructure for the Social Media Application was design with specific Budget rate, Security in mind, Availability, Recoverability and Resiliency. Instances and Database were carefully chosen to meet the demands in case of spike usage within the Budget cycle. Also, the EC2 instance (T3) and DynamoDb are selected for faster throughput.
 
