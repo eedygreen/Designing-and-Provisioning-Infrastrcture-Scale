@@ -17,11 +17,13 @@
 - Part 1: Design Social Media Application for 50,000 Users
 -  Part 2: Design Serverless Architecture for Developer
 
+
 **Provision**
 
 - Part 1: Provisioning Infrastructure with Terraform
 
 - Part 2: Provisioning Serverless Architecture with Terraform
+
 
 **Monitoring**
 
@@ -38,6 +40,7 @@
 ![](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/50000%20Social%20media%20Users.png)
 [50,000 Userse Infrastructure for Social Media Application](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_1.pdf)
 
+
 The Infrastructure for the Social Media Application was design with specific Budget rate, Security in mind, Availability, Recoverability and Resiliency. Instances and Database were carefully chosen to meet the demands in case of spike usage within the Budget cycle. Also, the EC2 instance (T3) and DynamoDb are selected for faster throughput.
 
 
@@ -51,6 +54,7 @@ This Serverless Architecture was design for Developers from different region wit
 
 ***
 
+
 [**Provision**](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/tree/master/part-1-udacityT2M4)
 
 * Part 1: Provisioning Infrastructure on AWS Cloud Platform with Terraform
@@ -58,11 +62,13 @@ This Serverless Architecture was design for Developers from different region wit
 ![](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/part-1-udacityT2M4/Terraform_1_1.png)
 **Infrastructure Deployment with Terraform** 
 
+
 - Part 2: Deploy AWS Lambda using Terrarform
 
 Click [here](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/tree/master/part-2) to view the code.
 
 ***
+
 
 [**Monitoring and Financial Management**](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/CloudWatch_Alarm.png)
 
@@ -70,6 +76,7 @@ Click [here](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrctu
 
    ![](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/initial%20estimate.png)
    **Initial Estimate cost is $10,0312.32 per year on Budget target**
+
 
 2. Part 2: I reduced the DynamoDb (Instance, I/o and backup storage) to achieve the reduced budget rate while maintaining normal operation. The reduction are; 
    -  Db instance-type, from dbr5.2xlarge to db r5.xlarge, 
@@ -79,10 +86,12 @@ Click [here](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrctu
 ![](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Reduced%20cost.png)
 **Reduced Estimate cost is $7,3736.28 per year with Budget target for $10,000.00**
 
+
 3. Part 3: The increased budget to $300,000 per year.
 
 ![](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/increased%20budget.png)
 **Increased Estimate Cost**
+
 
 
 
