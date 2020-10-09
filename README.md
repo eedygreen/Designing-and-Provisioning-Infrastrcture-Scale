@@ -35,7 +35,7 @@
 
 **Part 1**: The Infrastructure for a Social Media Application for 50,000 Users.
 
-![](/home/eedy/Pictures/50000 Social media Users.png)
+https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_1.pdf
 
 ​	[50,000 Userse Infrastructure for Social Media Application](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_1.pdf)
 
@@ -45,7 +45,7 @@ The Infrastructure for the Social Media Application was design with specific Bud
 
 **Part 2**: The Serverless Architecture for Application Development
 
-![](/home/eedy/Pictures/Serverless Architecture.png)
+https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_2.pdf
 
 [Serverless Architecture Schematic for Application Developers](https://github.com/eedygreen/Designing-and-Provisioning-Infrastrcture-Scale/blob/master/Udacity_Diagram_2.pdf)
 
